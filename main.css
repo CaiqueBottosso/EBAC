@@ -104,3 +104,19 @@ section he {
 #economy .articles article a {
   background-color: #ff9f1a;
 }
+
+#entretenimento {
+  background-color: rgb(238, 152, 234);
+}
+
+#entretenimento .articles article a {
+  background-color: rgb(83, 181, 211);
+}
+
+#tecnologia {
+  background-color: #1b87a8;
+}
+
+#tecnologia .articles article a {
+  background-color: rgb(248, 110, 86);
+}
