@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*.reddit-mono-<uniquifier> {
+header,
+h1 {
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: normal;
   font-style: normal;
-}*/
+}
