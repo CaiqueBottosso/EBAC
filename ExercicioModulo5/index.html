@@ -1,32 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Renting</title>
-    <link rel="main" href="./main.css" />
+    <title>Aluguel de Carros - Sua frota, sua escolha</title>
+    <link rel="stylesheet" href="./main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Mono:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container">
-        <h1>RENTING</h1>
+        <h1>Aluguel de Carros</h1>
         <nav>
           <ul>
-            <li>
-              <a href="#about">Sobre a loja</a>
-            </li>
-            <li>
-              <a href="#contact">Contato</a>
-            </li>
+            <li><a href="#about">Sobre nós</a></li>
+            <li><a href="#services">Nossos serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    <section id="about">
+      <div class="container">
+        <img
+          class="car-rental-image"
+          src="./images/car.jpeg"
+          alt="Carros para aluguel"
+        />
+        <div id="about_text">
+          <h2>Sobre nós</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget
+            tellus ut enim blandit viverra nec in sem. Nulla facilisi. Cras
+            consectetur semper quam, vel tincidunt est. Fusce consequat bibendum
+            tortor, nec sollicitudin lectus tempor id.
+          </p>
+          <p>
+            Nam vel libero mauris. Proin scelerisque arcu non ipsum efficitur,
+            et placerat nulla condimentum. Duis ultricies justo vitae luctus
+            dapibus. Mauris nec rhoncus justo. Vivamus nec mi arcu.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="container">
+        <ul class="services-list">
+          <li>
+            <h3>Aluguel de carros convencionais</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li>
+            <h3>Aluguel de carros de luxo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li>
+            <h3>Aluguel de carros esportivos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <div class="contact-methods">
+          <div>
+            <h3>Fale conosco</h3>
+            <form>
+              <input type="text" placeholder="Seu nome" required />
+              <input type="email" placeholder="Seu e-mail" required />
+              <input type="tel" placeholder="Seu telefone (Opcional)" />
+              <textarea placeholder="Sua mensagem" required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe</h3>
+            <ul class="social-links">
+              <li>
+                <a href="#" title="Siga-nos no Instagram"
+                  ><img src="./images/instagram.png" alt="Logo do Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no Facebook"
+                  ><img src="./images/facebook.png" alt="Logo do Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#" title="Siga-nos no Twitter"
+                  ><img src="./images/x.png" alt="Logo do Twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Venha até nós</h3>
+            <p>Rua Carro Alugado, 123 - Cidade dos Carros - Brasil</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; Aluguel de Carros - Todos os direitos reservados 2024</p>
+      </div>
+    </footer>
   </body>
 </html>
