@@ -1,0 +1,16 @@
+body {
+  margin: 50px;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.positiva {
+  color: green;
+}
+
+.negativa {
+  color: red;
+}
