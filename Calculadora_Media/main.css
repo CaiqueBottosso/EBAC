@@ -60,6 +60,7 @@ form button {
 
 table {
   width: 100%;
+  border-collapse: collapse; /* Adicionado para garantir que a tabela seja colapsada */
 }
 
 table th {
@@ -81,16 +82,18 @@ table td img {
 }
 
 .resultado {
-  width: 8px;
+  display: inline-block; /* Adicionado para garantir que o span seja exibido corretamente */
   font-weight: bold;
   color: #fff;
   background-color: #000;
   border-radius: 3px;
+  padding: 2px 8px; /* Adicionado para fornecer algum preenchimento ao texto */
 }
 
 .aprovado {
   background-color: #009432;
 }
+
 .reprovado {
   background-color: red;
 }
